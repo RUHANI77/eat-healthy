@@ -27,10 +27,12 @@ p{
 .link-button{
   text-decoration: none;
   background-image: linear-gradient(tomato, orange);  
+  box-shadow: 10px 10px 40px tomato;
   color:white;
   font-weight: 700;
   padding: 10px 30px;
   border-radius: 20px;
+  
 }
 .second-banner{
     background-image: url(images/shapes/7.png);
