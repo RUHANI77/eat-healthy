@@ -1,7 +1,8 @@
+
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 2px;
-    padding: 2px;
+    margin: none;
+    padding: none;
 }
 h1{
     font-size: 50px;
@@ -17,7 +18,7 @@ p{
 }
 .half-width{
     width: 50%;
-    padding-left: 2%;
+    padding: 5%;
 }
 .half-width img {
     width: 80%;
@@ -79,10 +80,8 @@ p{
     max-width: 100%;
 }
 .subscriber{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 10%;
+    text-align: center;
     border-radius: 30px;
  box-shadow: 10px 10px 40px gray;
 }
