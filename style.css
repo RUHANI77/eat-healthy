@@ -1,0 +1,104 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 2px;
+    padding: 2px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    margin-bottom: 50px;
+}
+.flexible-container{
+    display: flex;
+}
+.color-orange{
+    color: tomato;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 80%;
+
+}
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(tomato, orange);  
+  color:white;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.second-banner{
+    background-image: url(images/shapes/7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.img-2{
+    width: 30%;
+}
+.about-me{
+    display: flex;
+    padding-left: 2%;
+}
+.my-recipies{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.recipies-area{
+    display: flex;
+    
+}
+.recipies-item1{
+    width: 40%;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipies-item1 img{
+    display: block;
+    max-width: 100%;
+    
+}
+.recipies-item2{
+    width: 40%;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipies-item2 img{
+    display: block;
+    max-width: 100%;
+}
+.subscriber{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+ box-shadow: 10px 10px 40px gray;
+}
+footer{
+    height: 200px;
+    text-align: center;
+    padding-top: 5%;
+    background-color: rgb(3, 3, 35);
+}
+footer p{
+    color:white;
+    font-weight: 50px;
+}
+.orange{
+    color:orange;
+}
+.ash{
+    color:gray;
+}
